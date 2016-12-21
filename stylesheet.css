@@ -1,0 +1,36 @@
+
+body {
+  margin: 0 auto;
+}
+.sm{
+  display: none;
+}
+.md{
+  display: none;
+}
+.lg{
+  display: block;
+}
+
+@media screen and (max-width: 720px){
+  .lg{
+    display: none;
+  }
+  .md{
+    display: block;
+  }
+  .sm{
+    display: none;
+  }
+}
+@media screen and (max-width:320px){
+  .lg{
+    display: none;
+  }
+  .md{
+    display: none;
+  }
+  .sm{
+    display: block;
+  }
+}
